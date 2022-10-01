@@ -16,9 +16,9 @@ public class Latihan02 {
     Scanner scan = new Scanner(System.in);
     System.out.println("Masukkan nilai: ");
     System.out.println("==============================================");
-    a = scan.nextInt();
-    for (i=0; i<a+1; i++){
-      for (j=0; j<a-i-1; j++){
+    n = scan.nextInt();
+    for (i=0; i<n+1; i++){
+      for (j=0; j<n-i-1; j++){
         System.out.print(" ");
       }
       for (j=0; j<=i; j++){

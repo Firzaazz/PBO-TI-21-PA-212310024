@@ -12,7 +12,7 @@ public class Latihan02 {
   }
   public static void main(String[] args){
 	  System.out.println("==============================================");
-    int a, i, j;
+    int n, i, j;
     Scanner scan = new Scanner(System.in);
     System.out.println("Masukkan nilai: ");
     System.out.println("==============================================");
